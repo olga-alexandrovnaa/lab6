@@ -1,5 +1,6 @@
 {
   "name": "lab6",
+  "homepage": "/lab6",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

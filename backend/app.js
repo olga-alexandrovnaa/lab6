@@ -128,4 +128,5 @@ function randNorm() {
     return t/n;
 }
 
-server.listen(8080);
+const port = process.env.PORT || 7070;
+server.listen(port);

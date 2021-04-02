@@ -22,6 +22,9 @@ class App extends React.Component{
     console.log(name);
 
     socket = io('http://localhost:8080');
+
+this.io = new SocketIO('https://intense-fortress-72118.herokuapp.com');
+
     socket.on('connect',function(){
       socket.emit('login', {name:name});
     });

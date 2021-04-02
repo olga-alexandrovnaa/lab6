@@ -1,0 +1,29 @@
+[
+  {
+    "id":0,
+    "name":"ГМКНорникель",
+    "distribution":"нормальный",
+    "max":22000,
+    "price":19512,
+    "st_price":19512,
+    "in_torg": 100
+  },
+  {
+    "id":1,
+    "name":"Яндекс",
+    "distribution":"равномерный",
+    "max":5000,
+    "price":4591,
+    "st_price":4591,
+    "in_torg": 10
+  },
+  {
+    "id": 2,
+    "name":"Группа ЛСР ПАО ао",
+    "distribution": "нормальный",
+    "max": 1000,
+    "price": 891,
+    "st_price": 891,
+    "in_torg": 30
+  }
+]
